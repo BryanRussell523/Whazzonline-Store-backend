@@ -21,7 +21,17 @@ A scalable REST API for an e-commerce system built with Node.js, Express, TypeSc
 - PostgreSQL
 - JWT Authentication
 - bcryptjs
-- 
+
+Reason for use of Prisma:
+
+Prisma is a powerful ORM tool that simplifies database interactions with type-safe queries, intuitive data modeling, and efficient migrations. Below are some key reasons why I chose to add ot to my take home assessment:
+Type-Safe Queries: Prisma generates type-safe queries based on my database schema, reducing the likelihood of errors in database queries. 
+
+Intuitive Data Modeling: I defined the database schema in a straightforward, readable format, and Prisma converts it into actual database tables. 
+
+Time saving: With an ORM tool, for example prisma, I did not need to write sql queries since they are generated based on my defined schema. Thus time was saved and used on debugging code instead of SQL.
+
+Prisma's advantages make it a great tool for any project that requires efficient and type-safe database access, especially for developers working with TypeScript and Node.js environments.
 ## Installation and set up steps
 ```bash
 git clone https://github.com/BryanRussell523/Whazzonline-Store-backend
